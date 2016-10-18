@@ -8,8 +8,8 @@ let g:lightline = {
 \       [ 'fugitive', 'ctrlp', 'filename', 'zoompane' ]
 \     ],
 \     'right': [
-\       [ 'syntastic', 'lineinfo' ],
-\       ['percent'],
+\       [ 'lineinfo' ],
+\       [ 'percent' ],
 \       [ 'fileformat', 'fileencoding', 'filetype' ]
 \     ]
 \   },
@@ -34,12 +34,6 @@ let g:lightline = {
 \     'ctrlp': 'LightlineCtrlP',
 \     'mode': 'LightlineMode',
 \     'zoompane': 'LightlineZoomPaneIndicator'
-\   },
-\   'component_expand': {
-\     'syntastic': 'SyntasticStatuslineFlag'
-\   },
-\   'component_type': {
-\     'syntastic': 'error'
 \   },
 \   'component': {
 \     'lineinfo': '⭡ %3l:%-2v'
